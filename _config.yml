@@ -12,7 +12,7 @@ url:                https://bmnhat.github.io/
 
 # Jekyll
 permalink:          /:title/
-markdown:           kramdown
+markdown:           markdown
 highlighter:        rouge
 kramdown:
   auto_ids:         true
@@ -39,7 +39,7 @@ disqus_shortname:   bmnhat
 #bing-verify:
 email:           minhnhat@linuxmail.org
 twitter:         minhnhatio
-instagram:       minhnhat.io
+instagram:       minhnhatio
 facebook:        buiminhnhat.io
 github-url:      github.com/bmnhat
 #stackoverflow:  123456/username   from a "http://stackoverflow.com/users/123456/username" link
@@ -50,7 +50,7 @@ github-url:      github.com/bmnhat
 #medium:         '@username'
 #pinterest:      username
 #foursquare:     username
-steam:              username
+#steam:             username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
