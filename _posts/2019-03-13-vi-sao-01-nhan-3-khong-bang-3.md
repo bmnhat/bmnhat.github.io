@@ -2,7 +2,7 @@
 layout: post
 title:  "Vì sao 0.1 x 3 không bằng 0.3?"
 date:   2019-03-13
-excerpt: ""
+excerpt: "Dùng Python và nhập 0.1 * 3 == 0.3. Đó là lệnh so sánh hai vế với nhau. Kết quả trả về là False"
 tag: []
 comments: true
 ---
