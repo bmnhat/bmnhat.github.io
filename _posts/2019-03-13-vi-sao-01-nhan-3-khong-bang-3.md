@@ -42,7 +42,7 @@ Sau khi chuyển đổi, kết quả cần tìm là phần nguyên sau các lầ
 
 ## Biểu diễn số thực trên máy tính
 
-Mỗi thanh ghi tạm thời trong máy tính đều là hữu hạn. Cụ thể với float 32 bit thì các bit được phân như sau:
+Mỗi thanh ghi tạm thời trong máy tính đều là hữu hạn. Cụ thể với float32 thì các bit được phân như sau:
 
 | 1 bit đầu | 8 bit tiếp theo | 23 bit còn lại |
 | --------- | --------------- | -------------- |
