@@ -57,9 +57,9 @@ Sai số là độ chênh lệch của giá trị sau tính toán và giá trị
 Có 3 nguyên nhân dẫn đến sai số phổ biến:
 - **Do làm tròn**: cái này học từ cấp hai rồi, không nói nữa.
 
-- **Do triệt tiêu chữ số có nghĩa:** là lấy hai thằng có giá trị xấp xỉ bằng nhau rồi trừ đi nhau, kết quả = không phẩy en nờ số không và zed (0. 00..0z). Con số cực nhỏ này có thể bị máy tính bỏ qua và biến thành số 0 tròn trĩnh.
+- **Do triệt tiêu chữ số có nghĩa:** là lấy hai thằng có giá trị xấp xỉ bằng nhau rồi trừ đi nhau, kết quả = không phẩy en nờ số không và zed (0. 00..0z). Con số cực nhỏ này có thể bị máy tính đá ra rìa và biến thành số 0 tròn trĩnh.
 
-- **Do cộng với một số rất nhỏ:** ví dụ như trường hợp lấy vài tỉ cộng với 0. 00..0z thì vẫn nhận được vài tỉ không hơn. Nếu phải cộng nhiều nên ưu tiên cộng các số nhỏ hơn trước.
+- **Do cộng với một số rất nhỏ:** ví dụ như trường hợp lấy vài tỉ cộng với 0. 00..0z thì vẫn nhận được vài tỉ không hơn (tiếp tục bị đá). Nếu phải cộng nhiều nên ưu tiên cộng các số nhỏ hơn trước.
 
 Khá là may vì sai số này rất nhỏ nên không ảnh hưởng nhiều đến kết quả cuối cùng, nhưng cộng dồn các sai số vào thì hơi căng :). Đó là lí do số thực (hay kiểu float) không được dùng trong các ngành tài chính ngân hàng.
 
