@@ -48,7 +48,7 @@ Mỗi thanh ghi tạm thời trong máy tính đều là hữu hạn. Cụ thể
 | --------- | --------------- | -------------- |
 | dấu       | phần nguyên     | phần thập phân |
 
-Đồng nghĩa với việc máy tính này chỉ biểu diễn được 23 chữ số sau dấu phẩy. Và khi **n** trên kia vượt quá con số này thì phần đằng sau không được máy tính lưu trữ. Đó là lí do mà ta không thể biểu diễn **chính xác** một số thực có phần sau dấu phẩy dài hoặc là tuần hoàn.
+Đồng nghĩa với việc máy tính chỉ biểu diễn được 23 chữ số sau dấu phẩy. Và khi **n** trên kia vượt quá con số này thì phần đằng sau không được máy tính lưu trữ. Đó là lí do mà máy **không thể biểu diễn chính xác** một số thực có phần sau dấu phẩy dài hoặc là tuần hoàn.
 
 ## Sai số
 
