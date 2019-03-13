@@ -6,7 +6,7 @@ excerpt: ""
 tag: []
 comments: true
 ---
-Bài viết lấy cảm hứng từ bài viết [Vì sao 0.1 + 0.1 + 0.1 không bằng 0.3?](https://kipalog.com/posts/Vi-sao-0-1---0-1---0-1-khong-bang-0-3) của anh HVN_FAMILUG và trong quá trình ôn thi mình cũng muốn note lại tí kiến thức.
+Bài viết lấy cảm hứng từ bài viết [Vì sao 0.1 + 0.1 + 0.1 không bằng 0.3?](https://kipalog.com/posts/Vi-sao-0-1---0-1---0-1-khong-bang-0-3) của anh [HVN_FAMILUG](https://kipalog.com/users/HVN_FAMILUG/) và mình cũng muốn note lại tí kiến thức đã học.
 
 ---
 
@@ -20,9 +20,9 @@ Không lằng nhằng nữa, kết quả dòng trên trả về là `False` hay 
 
 Một lần nữa, nếu bạn không biết thì máy tính chỉ thực hiện được các phép toán trên các dãy bit (gọi là nhị phân gì đó).
 
-## Quy tắc chuyển phần thập phân của một số thực sang dạng nhị phân
+## Cách chuyển phần thập phân của một số sang dạng nhị phân
 
-Rất đơn giản, chỉ cần lấy phần thập phân nhân 2 rồi cứ tiếp tục cho đến khi phần thập phân này bằng 0 thì dừng. For example:
+Rất đơn giản, chỉ cần **lấy phần thập phân** nhân 2 rồi cứ tiếp tục cho đến khi phần thập phân này bằng 0 thì dừng. For example:
 
 - `0.75 * 2 = 1.5`
 - `0.5 * 2  = 1.0`
@@ -42,13 +42,13 @@ Sau khi chuyển đổi, kết quả cần tìm là phần nguyên sau các lầ
 
 ## Biểu diễn số thực trên máy tính
 
-Mỗi thanh ghi tạm thời trong máy tính đều là hữu hạn. Cụ thể với máy tính 32 bit thì các bit được phân như sau:
+Mỗi thanh ghi tạm thời trong máy tính đều là hữu hạn. Cụ thể với float 32 bit thì các bit được phân như sau:
 
 | 1 bit đầu | 8 bit tiếp theo | 23 bit còn lại |
 | --------- | --------------- | -------------- |
 | dấu       | phần nguyên     | phần thập phân |
 
-Đồng nghĩa với việc máy tính chỉ biểu diễn được 23 chữ số sau dấu phẩy. Và khi **n** trên kia vượt quá con số này thì phần đằng sau không được máy tính lưu trữ. Đó là lí do mà máy **không thể biểu diễn chính xác** một số thực có phần sau dấu phẩy dài hoặc là tuần hoàn.
+Đồng nghĩa với việc máy tính chỉ biểu diễn được 23 bit sau dấu phẩy. Và khi **n** trên kia vượt quá con số này thì phần đằng sau không được máy tính lưu trữ. Đó là lí do mà máy **không thể biểu diễn chính xác** một số thực có phần sau dấu phẩy dài hoặc là tuần hoàn.
 
 ## Sai số
 
@@ -59,8 +59,8 @@ Có 3 nguyên nhân dẫn đến sai số phổ biến:
 
 - **Do triệt tiêu chữ số có nghĩa:** là lấy hai thằng có giá trị xấp xỉ bằng nhau rồi trừ đi nhau, kết quả = không phẩy en nờ số không và zed (0. 00..0z). Con số cực nhỏ này có thể bị máy tính đá ra rìa và biến thành số 0 tròn trĩnh.
 
-- **Do cộng với một số rất nhỏ:** ví dụ như trường hợp lấy vài tỉ cộng với 0. 00..0z thì vẫn nhận được vài tỉ không hơn (tiếp tục bị đá). Nếu phải cộng nhiều nên ưu tiên cộng các số nhỏ hơn trước.
+- **Do cộng với một số rất nhỏ:** ví dụ như trường hợp lấy vài tỉ cộng với 0. 00..0z thì vẫn nhận được vài tỉ không hơn (tiếp tục bị đá).
 
 Khá là may vì sai số này rất nhỏ nên không ảnh hưởng nhiều đến kết quả cuối cùng, nhưng cộng dồn các sai số vào thì hơi căng :). Đó là lí do số thực (hay kiểu float) không được dùng trong các ngành tài chính ngân hàng.
 
-> Đến đây bạn đã có thể trả lời được câu hỏi đầu bài viết. Không có gì đảm bảo rằng tất cả các số thực được biểu diễn chính xác trong máy tính.
+> Đến đây bạn đã có thể trả lời được câu hỏi đầu bài viết. Không có gì đảm bảo rằng tất cả các số thực được biểu diễn exactly trong máy tính.
