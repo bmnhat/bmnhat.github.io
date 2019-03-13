@@ -18,6 +18,8 @@ Trong trường hợp bạn không biết, đó là lệnh so sánh hai vế v�
 
 Không lằng nhằng nữa, kết quả dòng trên trả về là `False` hay về trái không bằng vế phải. Hãy thử đổi sang bất kỳ ngôn ngữ nào phổ biến hiện nay, chân lí vẫn giữ nguyên.
 
+![img](/img/01-nhan-3.png)
+
 Một lần nữa, nếu bạn không biết thì máy tính chỉ thực hiện được các phép toán trên các dãy bit (gọi là nhị phân gì đó).
 
 ## Cách chuyển phần thập phân của một số sang dạng nhị phân
