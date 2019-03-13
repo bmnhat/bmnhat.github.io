@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Vì sao 0.1 x 3 không bằng 0.3?"
-project: false
-date:   2019-03-12
+date:   2019-03-13
 excerpt: ""
 tag: []
 comments: true
