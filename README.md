@@ -60,9 +60,34 @@ Vài kiểu phân loại phổ biến:
 
 Cần lưu ý là Ranking khác với Classification:
 
-![l&#x1ED7;i \(error\) c&#x1EE7;a ranking \(khoanh m&#xE0;u xanh\) l&#xE0; 1/2, l&#x1ED7;i c&#x1EE7;a classification \(khoanh m&#xE0;u &#x111;&#x1ECF;\) ch&#x1EC9; l&#xE0; 1/4.](.gitbook/assets/screenshot-from-2019-06-16-21-37-09.png)
-
-
+![L&#x1ED7;i \(error\) c&#x1EE7;a ranking \(khoanh m&#xE0;u xanh\) l&#xE0; 1/2, l&#x1ED7;i c&#x1EE7;a classification \(khoanh m&#xE0;u &#x111;&#x1ECF;\) ch&#x1EC9; l&#xE0; 1/4.](.gitbook/assets/screenshot-from-2019-06-16-21-37-09.png)
 
 ## 2. Unsupervised learning \(học không có hướng dẫn\) <a id="unsupervised-learning-hoc-khong-co-huong-dan"></a>
+
+Tất nhiên không có hướng dẫn là ta không cung cấp nhãn cho máy, và máy phải tìm ra mối quan hệ bên trong dữ liệu chứ không phải là đầu vào và đầu ra nữa \(có vẻ không giống học cho lắm\). Và ta có thể chia nó thành hai nhóm lớn:
+
+### 2.1 Clustering \(gom cụm\)
+
+Những dữ liệu nào có tính chất giống nhau sẽ được máy gom lại thành một cụm, và mỗi cụm này càng khác nhau càng tốt.
+
+Ứng dụng của gom cụm thì rất nhiều, từ ảnh ọt cho đến bán hàng. Ví dụ dễ nhất là tìm các nhóm khách hàng có sở thích, điều kiện giống nhau để có chiến dịch quảng cáo phù hợp cho từng nhóm.
+
+![](.gitbook/assets/screenshot-from-2019-06-16-21-58-27.png)
+
+Có hai loại gom cụm là phân hoạch \(hình người trên\) và phân cấp \(hình người dưới\)
+
+### 2.2 Dimensionality reduction / Manifold learning \(giảm chiều dữ liệu\)
+
+Nói chung là dạng kỹ thuật này biến dữ liệu nhiều thuộc tính về ít thuộc tính hơn nhưng vẫn giữ nguyên các mối liên hệ gốc bên trong. Ví dụ nhá, bạn đặt các tiêu chuẩn để yêu một em là ngoan, hiền, thùy mị, nết na, đảm đang, giỏi giang; nhưng cuối cùng bạn vẫn sẽ yêu một đứa ngon chảy dãi hoặc bố nó làm to; vậy thì cần gì nhiều điều kiện vớ va vớ vẩn ở trên? Kết quả nó vẫn thế mà.
+
+Nổi tiếng nhất trong dạng giảm chiều này là mạng Kohonen \(Self-organizing map\):
+
+![](.gitbook/assets/kohonen1.gif)
+
+## Kết
+
+Nếu bạn không hiểu hồi quy hay phân hoạch phân chó gì đó thì cũng đừng buồn, bởi vì tiêu đề bài viết chỉ là giới thiệu ML chứ không phải là giải thích những thứ bên trong nó. Vậy hen.
+
+Contact the author:[ Facebook](https://fb.com/buiminhnhat.io), [Instagram](https://instagram.com/minhnhatio), [Twitter](https://twitter.com/minhnhatio)  
+Email: minhnhat@linuxmail.org
 
